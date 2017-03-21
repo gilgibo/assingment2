@@ -70,7 +70,7 @@ public class Main_activity extends AppCompatActivity implements View.OnClickList
                     im1.setBackgroundResource(R.drawable.c);
                 }
 
-                else if(averge_score <= 60 && 70 < averge_score){
+                else if(averge_score <= 70 && 60 < averge_score){
 
                     im1.setBackgroundResource(R.drawable.d);
                 }
@@ -84,9 +84,9 @@ public class Main_activity extends AppCompatActivity implements View.OnClickList
                 break;
             case R.id.b2 :
 
-                et1.setHint("점수 입력");
-                et2.setHint("점수 입력");
-                et3.setHint("점수 입력");
+                et1.setText("");
+                et2.setText("");
+                et3.setText("");
 
                 t1.setText("0점");
                 t2.setText("0점");
